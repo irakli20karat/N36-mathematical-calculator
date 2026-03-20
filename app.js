@@ -1,6 +1,5 @@
 const express = require('express');
 const app = express();
-const path = require('path');
 const port = 3000;
 
 app.get('/calc/:op/:num1/:num2', (req, res) => {
